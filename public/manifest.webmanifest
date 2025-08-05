@@ -1,0 +1,16 @@
+{
+  "name": "Nostr Note Organizer",
+  "short_name": "Note Organizer",
+  "description": "Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
