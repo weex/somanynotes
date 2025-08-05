@@ -7,6 +7,8 @@ export interface AppConfig {
   theme: Theme;
   /** Selected relay URL */
   relayUrl: string;
+  /** Npub to send feedback to (optional, defaults to hardcoded value) */
+  feedbackRecipient?: string;
 }
 
 export interface AppContextType {

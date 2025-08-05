@@ -12,6 +12,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { NostrLoginProvider } from '@nostrify/react/login';
 import { AppProvider } from '@/components/AppProvider';
 import { AppConfig } from '@/contexts/AppContext';
+import { FeedbackPopup } from '@/components/FeedbackPopup';
 import AppRouter from './AppRouter';
 
 const head = createHead({
@@ -52,6 +53,7 @@ export function App() {
               <TooltipProvider>
                 <Toaster />
                 <Sonner />
+                <FeedbackPopup />
                 <Suspense>
                   <AppRouter />
                 </Suspense>
