@@ -655,8 +655,8 @@ export default function NotesCollection() {
 
 
   useSeoMeta({
-    title: 'Note Organizer',
-    description: 'Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.',
+    title: 'So Many Notes',
+    description: 'Save and organize the best content from Nostr.',
   });
 
   const handleClearAll = () => {
@@ -757,9 +757,9 @@ export default function NotesCollection() {
   return (
     <div className="container mx-auto px-4 py-4 max-w-6xl">
       <div className="mb-4">
-        <h1 className="text-2xl font-bold mb-1">Nostr Note Organizer</h1>
+        <h1 className="text-2xl font-bold mb-1">So Many Notes</h1>
         <p className="text-sm text-muted-foreground">
-          Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.
+          Save and organize the best content from Nostr.
         </p>
       </div>
 

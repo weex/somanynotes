@@ -30,7 +30,7 @@ export function ImportNotes({ className }: ImportNotesProps) {
     if (!file.name.endsWith('.zip')) {
       toast({
         title: 'Invalid file type',
-        description: 'Please select a ZIP file exported from Nostr Note Organizer.',
+        description: 'Please select an exported ZIP file.',
         variant: 'destructive',
       });
       return;
@@ -102,7 +102,7 @@ export function ImportNotes({ className }: ImportNotesProps) {
     } else {
       toast({
         title: 'Invalid file type',
-        description: 'Please drop a ZIP file exported from Nostr Note Organizer.',
+        description: 'Please drop an exported ZIP file.',
         variant: 'destructive',
       });
     }

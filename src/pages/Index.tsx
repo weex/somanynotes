@@ -7,8 +7,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const Index = () => {
   useSeoMeta({
-    title: 'Nostr Note Organizer',
-    description: 'Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.',
+    title: 'So Many Notes',
+    description: 'Save and organize the best content from Nostr.',
   });
 
   return (
@@ -21,10 +21,10 @@ const Index = () => {
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
-            Nostr Note Organizer
+            So Many Notes
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-            Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.
+            Save and organize the best content from Nostr. 
           </p>
           <Link to="/notes">
             <Button size="lg" className="text-lg px-8 py-3">

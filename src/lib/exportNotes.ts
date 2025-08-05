@@ -76,7 +76,7 @@ export async function exportNotesToZip(notesByCollection: Record<string, SavedNo
   const zip = new JSZip();
 
   // Add a README file
-  const readme = `# Nostr Note Organizer Export
+  const readme = `# So Many Notes Export
 
 This export contains your saved Nostr notes organized by collection.
 
@@ -200,7 +200,7 @@ ${sortedNotes.map((note, index) => {
 
   const link = document.createElement('a');
   link.href = url;
-  link.download = `notes-organizer-${new Date().toISOString().split('T')[0]}.zip`;
+  link.download = `somanynotes.com-export-${new Date().toISOString().split('T')[0]}.zip`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

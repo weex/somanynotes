@@ -1,7 +1,7 @@
 {
-  "name": "Nostr Note Organizer",
-  "short_name": "Note Organizer",
-  "description": "Save, categorize, and rank your favorite Nostr notes. Curate the best content available on Nostr.",
+  "name": "So Many Notes",
+  "short_name": "So Many Notes",
+  "description": "Save and organize the best content from Nostr.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -1,5 +1,6 @@
-# SoManyNotes.com
+# So Many Notes
 
-Save, organize, and discover the best content from across Nostr.
+Save and organize the best content from Nostr.
 
+Live site: https://somanynotes.com
 
